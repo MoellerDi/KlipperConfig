@@ -1,4 +1,5 @@
 # My klipper config files
+---
     _  __ ____      _     _  __    _   _____   _    _   _
    | |/ /|  _ \    / \   | |/ /   / \ |_   _| / \  | | | |
    | ' / | |_) |  / _ \  | ' /   / _ \  | |  / _ \ | | | |
@@ -8,9 +9,9 @@
      /777          ((_           ___           /777          ___
     (o o)         (o o)         (o o)         (o o)         (o o)
 ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
+---
 
-
-##y config is split into seperate config snippets.
+##My config is split into seperate config snippets.
 
 The configuration exists of the following files:
 
