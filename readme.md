@@ -12,10 +12,10 @@ The configuration exists of the following files:
 3. calibration.cfg
    - Definitions for bed leveling and possibly other calibration setting. (Bed-screws, etc.)   
 4. probe.cfg
-  - Definitions for the inductive probe used as Z-stop and bed leveling.
+   - Definitions for the inductive probe used as Z-stop and bed leveling.
 5. leds.cfg
    - Definitions for the leds.   
 6. macros.cfg
-  - Macro definitions.   
+   - Macro definitions.   
 7. other.cfg
-  - All definitions that didn't fit in the previous files.
+   - All definitions that didn't fit in the previous files.
