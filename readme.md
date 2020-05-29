@@ -1,5 +1,5 @@
 # My klipper config files
-## cr10 / cr10s klipper profile
+## Krakatau's klipper profile
 My config is split into seperate config snippets.
 
 
@@ -7,6 +7,13 @@ Adding an evironment variable is as easy as ssh'ing into your pi, opening your b
 
 ## The configuration exists of the following files:
 
+1. printer.cfg
+   - The first file Klipper searches for at boot. I contains references to the other files.
+   It is also used by Klipper to store config parameters from the SAVE_CONFIG command.
+2. machine.cfg
+   - Machine definitions
+   
+   
 # Machine definitions
 [include machine.cfg]
 
