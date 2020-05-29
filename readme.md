@@ -11,8 +11,9 @@ Adding an evironment variable is as easy as ssh'ing into your pi, opening your b
    - The first file Klipper searches for at boot. I contains references to the other files.
    It is also used by Klipper to store config parameters from the SAVE_CONFIG command.
 2. machine.cfg
-   - Machine definitions
-   
+   - Hardware definitions for my specific printer model.
+3. calibration.cfg
+   - Definitions for bed leveling and possibly other calibration setting. (Bed-screws, etc.)   
    
 # Machine definitions
 [include machine.cfg]
