@@ -1,6 +1,6 @@
 # My klipper config files
 
-##My config is split into seperate config snippets.
+## My config is split into seperate config snippets.
 
 The configuration exists of the following files:
 
