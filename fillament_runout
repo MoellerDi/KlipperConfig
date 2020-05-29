@@ -1,0 +1,7 @@
+
+    Save the actual axis positions (x,y,z, extruder)
+    Retract some filament (default "park retract" value, or specified with M600)
+    Go to a "park nozzle position"
+    Wait for the user to change the filament. On MARLIN, this implies that the user have a LCD display, to be able to see what's going on, and confirm that the new filament has been set-up. Once the user has changed the filament, he has to push the button... (in our case, we could wait for a MXXX code to resume the print)
+    Reload the filament (either a specified value or default...)
+    Go back to the saved position and resume the print !
