@@ -7,7 +7,7 @@
     Go back to the saved position and resume the print !
 
 
-***
+```
 [gcode_macro END_PRINT]
 gcode:
     M117 Done printing :)
@@ -21,6 +21,5 @@ gcode:
     M104 S0
     M140 S0
     # disable steppers
-    M84
-    BED_MESH_CLEAR
-***
+```
+
