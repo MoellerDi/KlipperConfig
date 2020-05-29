@@ -1,23 +1,31 @@
 # My klipper config files
-## cr10 / cr10s klipper profile
-My config is split into seperate config snippets.
+    _  __ ____      _     _  __    _   _____   _    _   _
+   | |/ /|  _ \    / \   | |/ /   / \ |_   _| / \  | | | |
+   | ' / | |_) |  / _ \  | ' /   / _ \  | |  / _ \ | | | |
+   | . \ |  _ <  / ___ \ | . \  / ___ \ | | / ___ \| |_| |
+   |_|\_\|_| \_\/_/   \_\|_|\_\/_/   \_\|_|/_/   \_\\___/
+
+     /777          ((_           ___           /777          ___
+    (o o)         (o o)         (o o)         (o o)         (o o)
+ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
 
 
-Adding an evironment variable is as easy as ssh'ing into your pi, opening your bashrc file `nano ~/.bashrc`, scrolling to the bottom and adding the environment variable (for example `export PRINTER_NAME=cr10`). After you have saved the bashrc file, source it `source ~/.bashrc` and issuing `echo $PRINTER_NAME` should return the name you've entered.
+##y config is split into seperate config snippets.
 
-## The configuration exists of the following files:
+The configuration exists of the following files:
 
-# Machine definitions
-[include machine.cfg]
-
-# Calibration f.i. Bed-Level
-[include calibration.cfg]
-
-# Probe definitions
-[include probe.cfg]
-
-# LED definitions
-[include leds.cfg]
-
-# Other
-[include other.cfg]
+1. printer.cfg
+   - The first file Klipper searches for at boot. I contains references to the other files.
+   It is also used by Klipper to store config parameters from the SAVE_CONFIG command.
+2. machine.cfg
+   - Hardware definitions for my specific printer model.
+3. calibration.cfg
+   - Definitions for bed leveling and possibly other calibration setting. (Bed-screws, etc.)   
+4. probe.cfg
+  - Definitions for the inductive probe used as Z-stop and bed leveling.
+5. leds.cfg
+   - Definitions for the leds.   
+6. macros.cfg
+  - Macro definitions.   
+7. other.cfg
+  - All definitions that didn't fit in the previous files.
