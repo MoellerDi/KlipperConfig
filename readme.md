@@ -39,5 +39,9 @@
 8. wipe_nozzle
    - Moves nozzle to purge bucket location and wipes it a few times.
 
-And there is a bash script (git_update.sh) that automates the update from GitHub to my Pi.
-Modify the scriptto fit your specific needs.
+   ## Updates:
+   - added update script
+     -  automates the update from GitHub to my Pi.
+   - added fillament runout sensor a
+     - ... macro
+     - --- macro
